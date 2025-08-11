@@ -1,0 +1,55 @@
+2025-08-11 16:19:13,873 - INFO - ============================================================
+2025-08-11 16:19:13,874 - INFO - LeetCode Reasoning Trace Collection - Session Started
+2025-08-11 16:19:13,874 - INFO - ============================================================
+2025-08-11 16:19:13,874 - INFO - Configuration:
+2025-08-11 16:19:13,875 - INFO -   - JSONL File: leetcode.jsonl
+2025-08-11 16:19:13,876 - INFO -   - Database File: leetcode_traces.db
+2025-08-11 16:19:13,876 - INFO -   - Model Name: qwen3:8b
+2025-08-11 16:19:13,877 - INFO -   - Number of Entries: 2
+2025-08-11 16:19:13,880 - INFO - ========================================
+2025-08-11 16:19:13,880 - INFO - STEP 1: Setting up database
+2025-08-11 16:19:13,881 - INFO - ========================================
+2025-08-11 16:19:13,881 - INFO - Setting up database at: leetcode_traces.db
+2025-08-11 16:19:13,902 - INFO - Database setup complete: leetcode_traces.db
+2025-08-11 16:19:13,902 - INFO - ========================================
+2025-08-11 16:19:13,903 - INFO - STEP 2: Reading entries from JSONL file
+2025-08-11 16:19:13,903 - INFO - ========================================
+2025-08-11 16:19:13,904 - INFO - Starting to read 2 entries from leetcode.jsonl
+2025-08-11 16:19:13,934 - INFO - Read entry 1: 'Two Sum'
+2025-08-11 16:19:13,935 - INFO - Read entry 2: 'Add Two Numbers'
+2025-08-11 16:19:13,937 - INFO - Successfully read 2 entries from leetcode.jsonl in 0.03 seconds
+2025-08-11 16:19:13,938 - INFO - ========================================
+2025-08-11 16:19:13,939 - INFO - STEP 3: Generating reasoning traces
+2025-08-11 16:19:13,939 - INFO - ========================================
+2025-08-11 16:19:13,940 - INFO - Processing entry 1/2: 'Two Sum'
+2025-08-11 16:19:13,941 - INFO - Entry content length: 830 characters
+2025-08-11 16:19:13,942 - INFO - Starting WITH THINK trace generation with model: qwen3:8b
+2025-08-11 16:19:13,942 - INFO - WITH THINK - Sending request to model at 2025-08-11 16:19:13
+2025-08-11 16:22:26,741 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-11 16:22:26,745 - INFO - WITH THINK - Request completed at 2025-08-11 16:22:26
+2025-08-11 16:22:26,745 - INFO - WITH THINK - Generation time: 192.80 seconds
+2025-08-11 16:22:26,745 - INFO - WITH THINK - Response length: 5232 characters
+2025-08-11 16:22:26,745 - INFO - WITH THINK trace generated successfully in 192.80 seconds (length: 5232)
+2025-08-11 16:22:26,745 - INFO - Starting to save 1 entries to database
+2025-08-11 16:22:26,746 - INFO - Saved entry 1/1: Two Sum
+2025-08-11 16:22:26,749 - INFO - Successfully saved 1 entries to database in 0.00 seconds
+2025-08-11 16:22:26,749 - INFO - Completed processing and saved: Two Sum in 192.81 seconds
+2025-08-11 16:22:26,749 - INFO - ----------------------------------------
+2025-08-11 16:22:26,749 - INFO - Starting translation for current entry
+2025-08-11 16:22:26,749 - INFO - Translating reasoning trace for problem: 'Two Sum'
+2025-08-11 16:22:26,749 - INFO - Starting translation of text (length: 5392 chars)
+2025-08-11 16:22:26,749 - INFO - Translation attempt 1/3 using model: qwen3:8b
+2025-08-11 16:25:34,988 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2025-08-11 16:25:34,990 - INFO - Request completed at 2025-08-11 16:25:34
+2025-08-11 16:25:34,990 - INFO - Translation time: 188.24 seconds
+2025-08-11 16:25:34,990 - INFO - Input length: 5392 characters
+2025-08-11 16:25:34,990 - INFO - Output length: 1338 characters
+2025-08-11 16:25:34,991 - INFO - Translation completed successfully in 188.24 seconds (output length: 1338 chars)
+2025-08-11 16:25:34,991 - INFO - Completed translation for problem: 'Two Sum'
+2025-08-11 16:25:34,999 - INFO - Completed translation: Two Sum in 188.25 seconds
+2025-08-11 16:25:34,999 - INFO - Total time for entry 'Two Sum': 381.06 seconds
+2025-08-11 16:25:35,000 - INFO - ==================================================
+2025-08-11 16:25:35,000 - INFO - Processing entry 2/2: 'Add Two Numbers'
+2025-08-11 16:25:35,000 - INFO - Entry content length: 817 characters
+2025-08-11 16:25:35,001 - INFO - Starting WITH THINK trace generation with model: qwen3:8b
+2025-08-11 16:25:35,001 - INFO - WITH THINK - Sending request to model at 2025-08-11 16:25:35
