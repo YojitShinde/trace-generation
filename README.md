@@ -1,6 +1,6 @@
 # LeetCode Reasoning Trace Collection and Translation Pipeline
 
-This project generates reasoning traces for LeetCode problems using Ollama and translates them to Hindi using a local Sarvam model (also via Ollama). The pipeline ensures no race conditions by processing one problem at a time and immediately translating each trace after generation.
+This project generates reasoning traces for LeetCode problems and translates them to Hindi using using Ollama - qwen3:8b. The pipeline ensures no race conditions by processing one problem at a time and immediately translating each trace after generation.
 
 ## Features
 
